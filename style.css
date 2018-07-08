@@ -1,0 +1,65 @@
+.center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  display: inline;
+  width: 200px;
+}
+
+body {
+  background-image: url('green-numbers.jpg');
+}
+#app {
+  width: 60%;
+  margin: 50px auto;
+  padding-bottom: 20px;
+  background-color: rgba(256, 256, 256, 0.75);
+}
+
+#footer {
+  width: 100%;
+  border-top: solid 2px black;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+#guesses {
+  margin-bottom: 20px;
+}
+.guess {
+  display: inline;
+  border: black 1px solid;
+  border-radius: 10%;
+  padding: 0 25px;
+  font-size: 60px;
+}
+
+.player-input {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  font-size: 60px;
+}
+
+#submit {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #88c641;
+  color: white;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+}
+
+#input-parent {
+  width: 160px;
+  margin: 50px auto;
+  position: relative;
+}
